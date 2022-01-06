@@ -3,30 +3,59 @@
     padding:0;
     box-sizing: border-box;
 }
+.main{
+    margin:10px 60px;
+}
+section{
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.heading-text{
+    position: relative;
+}
+.title-banner{
+    font-size: 40px;    
+    text-align: center;
+    border-left-color: tomato;   
+}
+.heading-text::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(255 89 89);
+    border-color: #e6160f;
+  border-style: solid;
+  border-radius: 10px;
+  height: 80%;
+  top: 20%;
+  left: -2%;
+  margin-top: -1em;
+}
+.title-head{
+    font-size: 60px;    
+    text-align: center;
+    border-left-color: tomato;  
 
+}
 .flexible-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 0 auto;    
+    justify-content: space-around;
+    margin-top: 50px;  
     text-align: left;
     width: 100%;
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
 
 }
 
 .half-width img{
-    width: 80%;
+    width: 100%;
+    padding: 10%;
 }
-.title-name{
-    font-size: 40px;    
-    text-align: center;
-    border-left-color: tomato;  
-  
-}
+
 .orange-color{
     color: orange;
 }
@@ -41,51 +70,44 @@
     text-decoration: none;
 }
 
-
+/* sectio-2 start  */
 .mission{
-    background-color: lightblue;
-    width: 50%;
-    padding-left: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgb(237 245 246);
+    border-radius: 10px;
+    width: 30%;
+    padding: 2%;
+    font-size: 20px;
+    height: 60%;
 }
 .mission img{
-    width: 30%;
+    width: 40%;
 }
 .Vission{
-    background-color: lightpink;
-    width: 50%;
+    background-color:rgb(255 238 238);
+    border-radius: 10px;
+    width: 30%;
     padding: 2%;
-    margin-right: 2%;
+    font-size: 20px;
+    height: 60%;
     
 }
 .Vission img{
-    width: 30%;
+    width: 40%;
 }
 .goals{
-    background-color: orchid;
-    width: 50%;
+    background-color: rgb(255 244 214);
+    border-radius: 10px;
+    width: 30%;
     padding: 2%;
-    margin-right: 2%;
+    font-size: 20px;
+    height: 60%;
 }
 .goals img{
-    width: 30%;
-}
-.develop{
-    display: flex;
-    
-}
-.dev{
     width: 50%;
-    padding-right: 10%;
-    margin-right: 10%;
 }
-.dev img{
-    width: 100%;
-    margin-bottom: 5%;
-    margin-left: 20%;
-}
-.develop{
+
+.bg-shape{
+    display: flex;
     background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -126,9 +148,10 @@ footer{
     text-align: center;
 }
 .last{
-     border-width: 10pc 10pc;
+     border-width: 10px 10px;
      background-color: black;
      color: white;
+     
 }
 .last .tomato{
     color: tomato;
