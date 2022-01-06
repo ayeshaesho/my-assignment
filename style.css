@@ -1,0 +1,117 @@
+body{
+      margin: 2%;
+}
+h1{
+    font-size: 40px;
+    
+    text-align: left;
+    border-left-color: tomato;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 5%;
+}
+.half-width{
+    width: 50%;
+    padding-right: 5%;
+   
+}
+.half-width img{
+    width: 50%;
+}
+.link-button{
+    background-color: tomato;
+    background-image: linear-gradient(orange tomato);
+    padding: 14px 25px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    display: inline;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.mission{
+    background-color: lightblue;
+    width: 50%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mission img{
+    width: 30%;
+}
+.Vission{
+    background-color: lightpink;
+    width: 50%;
+    padding: 2%;
+    margin-right: 2%;
+    
+}
+.Vission img{
+    width: 30%;
+}
+.goals{
+    background-color: orchid;
+    width: 50%;
+    padding: 2%;
+    margin-right: 2%;
+}
+.goals img{
+    width: 30%;
+}
+.develop{
+    display: flex;
+    
+}
+.dev{
+    width: 50%;
+    padding-right: 10%;
+    margin-right: 10%;
+}
+.dev img{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+.develop{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+    
+}
+.global{
+    display: flex;
+    
+}
+.global img{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+
+}
+.global{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;
+    
+    
+}
+.career{
+    display: flex;
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 10%;
+}
+.career img{
+    width: 50%;
+   
+
+}
+
