@@ -127,8 +127,8 @@ section{
 .global{
     background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 300px;
+    background-position: left;
+    background-size: 250px;
     
     
 }
@@ -157,4 +157,3 @@ footer{
     color: tomato;
 
 }
-
