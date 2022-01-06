@@ -6,6 +6,7 @@ h1{
     
     text-align: left;
     border-left-color: tomato;
+    
 }
 .orange-color{
     color: orange;
@@ -17,8 +18,12 @@ h1{
 .half-width{
     width: 50%;
     padding-right: 5%;
+    text-align: left;
+
+
    
 }
+
 .half-width img{
     width: 50%;
 }
@@ -112,6 +117,18 @@ h1{
 .career img{
     width: 50%;
    
+
+}
+footer{
+    text-align: center;
+}
+.last{
+     border-width: 10pc 10pc;
+     background-color: black;
+     color: white;
+}
+.last .tomato{
+    color: tomato;
 
 }
 
